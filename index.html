@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="World Youth Diplomacy Model United Nations — A premier student-run MUN conference in Dubai, 2026. Diplomacy. Leadership. Impact." />
+  <title>WYD MUN — World Youth Diplomacy Model United Nations · Dubai 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Favicon: TODO — replace with actual favicon -->
+  <!-- <link rel="icon" type="image/png" href="brand_assets/favicon.png" /> -->
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container navbar-inner">
+      <a href="index.html" aria-label="WYD MUN Home">
+        <img
+          class="navbar-logo"
+          src="brand_assets/WYDMUN Logo.png"
+          alt="WYD MUN Logo"
+        />
+      </a>
+
+      <!-- Desktop nav links -->
+      <ul class="navbar-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="committees.html">Committees</a></li>
+        <li><a href="secretariat.html">Secretariat</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="register.html" class="nav-cta">Register Now</a></li>
+      </ul>
+
+      <!-- Hamburger (mobile) -->
+      <button
+        class="navbar-toggle"
+        id="navToggle"
+        aria-label="Toggle mobile menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu overlay -->
+  <nav class="navbar-mobile" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="#about">About Us</a>
+    <a href="committees.html">Committees</a>
+    <a href="secretariat.html">Secretariat</a>
+    <a href="#contact">Contact</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="register.html" class="nav-mobile-cta">Register Now</a>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO — Full-width centered layout on cream background
+       ============================================================ -->
+  <section class="hero" id="home" aria-label="Hero" data-nav-theme="dark">
+    <!-- Slideshow background — images crossfade automatically -->
+    <div class="hero-slideshow" aria-hidden="true">
+      <div class="hero-slide active" style="background-image: url('brand_assets/Slideshow Image 1.avif');"></div>
+      <div class="hero-slide"        style="background-image: url('brand_assets/Image Slideshow 2.webp');"></div>
+      <div class="hero-slide"        style="background-image: url('brand_assets/Slideshow Image 3.webp');"></div>
+      <!-- Dark overlay — keeps text readable over any image -->
+      <div class="hero-slide-overlay"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Center: headline + CTAs -->
+        <div class="hero-left">
+          <p class="hero-eyebrow">Est. 2026 · Dubai, UAE</p>
+
+          <h1 class="hero-title">
+            World Youth Diplomacy<br>
+            <em>Model United Nations</em>
+          </h1>
+
+          <p class="hero-sub">
+            "Diplomacy Begins with The Next Generation."
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">
+              Discover More
+              <svg class="btn-icon" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <path d="M9 3.5v11M9 14.5l-4-4M9 14.5l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="register.html" class="btn btn-outline-light">
+      
+              Register Now as a Delegate!
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       STATS BAR — bordered stat blocks
+       ============================================================ -->
+  <section class="stats-bar" aria-label="Conference statistics" data-nav-theme="light">
+    <div class="container">
+      <div class="stats-bar-inner">
+
+        <div class="stat-block">
+          <div class="stat-block-number" data-target="20" data-suffix="+">20+</div>
+          <div class="stat-block-label">Countries</div>
+        </div>
+
+        <div class="stat-block">
+          <div class="stat-block-number" data-target="6" data-suffix="">6</div>
+          <div class="stat-block-label">Committees</div>
+        </div>
+
+        <div class="stat-block">
+          <div class="stat-block-number" data-target="3" data-suffix="">3</div>
+          <div class="stat-block-label">Days</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT US
+       ============================================================ -->
+  <section class="section-about" id="about" aria-label="About Us" data-nav-theme="dark">
+    <div class="about-overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="about-inner">
+
+        <!-- Left: text -->
+        <div class="about-left">
+          <span class="label-tag reveal">About Us</span>
+
+          <h2 class="section-title reveal delay-1">
+            Building the Next Generation<br>of Global Leaders
+          </h2>
+
+          <div class="about-body reveal delay-2">
+            <p>
+              World Youth Diplomacy Model United Nations is a <strong>student-run MUN
+              conference</strong> we aim to bring together passionate young leaders 
+              from across the globe to address the defining issues of our time.
+            </p>
+
+            <p>
+              Founded by students, for students, our aim is to create an environment where
+              students are challenged to think critically and collborate across cultures, 
+              directly simulating real world diplomacy. 
+            </p>
+
+            <p>
+              By addressing global issues around the world, it allows the free-spirited opinions 
+              of the youth to be heard and aids in the development of creative resolutions.
+              Join us for our first annual conference in 2026... online!
+            </p>
+
+            <p>*Picture taken in Winchester Model United Nations Conference, 2026. ICAO Committee.</p>
+          </div>
+
+          <a href="#contact" class="btn btn-primary reveal delay-3">
+            Get In Touch
+            <svg class="btn-icon" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M3 9h12M10 4l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COMMITTEES — Preview (6 cards)
+       ============================================================ -->
+  <section class="section-committees" aria-label="Committees" data-nav-theme="light">
+    <div class="container">
+
+      <div class="committees-header">
+        <div class="committees-header-left">
+          <span class="label-tag">Committees for 2026 (Subject to change)</span>
+          <h2 class="section-title">Six Committees. One conference. United by the love for Diplomacy.</h2>
+        </div>
+        <a href="committees.html" class="btn btn-outline">
+          View All Committees
+          <svg class="btn-icon" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M3 9h12M10 4l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="committees-grid">
+
+        <div class="committee-card reveal">
+          <div class="committee-photo-wrap"></div>
+          <div class="committee-card-body">
+            <span class="committee-acronym">WHO</span>
+            <h3 class="committee-name">World Health Organisation</h3>
+            <div class="committee-rule" aria-hidden="true"></div>
+            <p class="committee-topic">
+              Debate vaccine access, cross-border health funding, and the WHO's role in preventing the next global health emergency.
+            </p>
+          </div>
+          <div class="committee-card-footer">
+            <span class="committee-difficulty difficulty-beginner">Beginner</span>
+            <a class="committee-read-more" href="who.html">Read More <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6h8M6.5 2.5l3.5 3.5-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+
+        <div class="committee-card reveal delay-1">
+          <div class="committee-photo-wrap"></div>
+          <div class="committee-card-body">
+            <span class="committee-acronym">UNODC</span>
+            <h3 class="committee-name">United Nations Office on Drugs and Crime</h3>
+            <div class="committee-rule" aria-hidden="true"></div>
+            <p class="committee-topic">
+              Take on illicit trafficking networks, money laundering, and the fine line between enforcement and public health.
+            </p>
+          </div>
+          <div class="committee-card-footer">
+            <span class="committee-difficulty difficulty-beginner">Beginner</span>
+            <a class="committee-read-more" href="unodc.html">Read More <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6h8M6.5 2.5l3.5 3.5-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+
+        <div class="committee-card reveal delay-2">
+          <div class="committee-photo-wrap"></div>
+          <div class="committee-card-body">
+            <span class="committee-acronym">FIFA</span>
+            <h3 class="committee-name">Fédération Internationale de Football Association</h3>
+            <div class="committee-rule" aria-hidden="true"></div>
+            <p class="committee-topic">
+              Navigate corruption scandals and governance failures inside football's most powerful institution to save the future of the beautiful game.
+            </p>
+          </div>
+          <div class="committee-card-footer">
+            <span class="committee-difficulty difficulty-intermediate">Intermediate · <span class="crisis-label">Crisis</span></span>
+            <a class="committee-read-more" href="fifa.html">Read More <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6h8M6.5 2.5l3.5 3.5-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ============================================================
+       VISION BANNER — Full-width dark navy quote
+       ============================================================ -->
+  <section class="section-vision" aria-label="Our Vision" data-nav-theme="dark">
+    <div class="container">
+      <div class="vision-inner">
+        <span class="vision-mark" aria-hidden="true">❝</span>
+        <p class="vision-quote">
+          "The United Nations was born from war. Today, we must be here for peace."
+        </p>
+        <span class="vision-attr">António Guterres</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section class="section-contact" id="contact" aria-label="Contact Us" data-nav-theme="light">
+    <div class="container">
+      <div class="contact-inner">
+
+        <!-- Left: info -->
+        <div class="contact-left">
+          <span class="label-tag reveal">Contact Us</span>
+
+          <h2 class="section-title reveal delay-1">Get in Touch</h2>
+
+          <p class="section-sub reveal delay-2">
+            Have questions about WYD MUN 2026? Whether you're a delegate, a
+            school coordinator, or a prospective sponsor, we'd love to hear
+            from you!
+          </p>
+
+          <div class="contact-detail-list reveal delay-2">
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <rect x="2.5" y="4.5" width="15" height="11" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
+                  <path d="M2.5 6.5l7.5 5 7.5-5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="contact-detail-text">
+                <div class="contact-detail-label">Email</div>
+                <div class="contact-detail-value">
+                  <a href="mailto:worldyouthdiplomacymun@gmail.com">
+                    worldyouthdiplomacymun@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <rect x="3" y="3" width="14" height="14" rx="4" stroke="currentColor" stroke-width="1.4"/>
+                  <circle cx="10" cy="10" r="3.2" stroke="currentColor" stroke-width="1.4"/>
+                  <circle cx="14.2" cy="5.8" r="0.9" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="contact-detail-text">
+                <div class="contact-detail-label">Instagram</div>
+                <div class="contact-detail-value">
+                  <a href="https://instagram.com/wyd_mun" target="_blank" rel="noopener noreferrer">
+                    @wyd_mun
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-social-row reveal delay-3">
+            <a
+              href="mailto:worldyouthdiplomacymun@gmail.com"
+              class="social-btn"
+              aria-label="Email WYD MUN"
+            >
+              <svg viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <rect x="2" y="4" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/>
+                <path d="M2 5.5l7 5 7-5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              </svg>
+              Email Us
+            </a>
+            <a
+              href="https://instagram.com/wyd_mun"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              aria-label="WYD MUN on Instagram"
+            >
+              <svg viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <rect x="2" y="2" width="14" height="14" rx="4" stroke="currentColor" stroke-width="1.3"/>
+                <circle cx="9" cy="9" r="3.2" stroke="currentColor" stroke-width="1.3"/>
+                <circle cx="13.2" cy="4.8" r="0.8" fill="currentColor"/>
+              </svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: contact form card -->
+        <form
+          action="https://formspree.io/f/mdapzbkj"
+          method="POST"
+          class="contact-form reveal delay-2"
+          id="contactForm"
+          aria-label="Contact form"
+          novalidate
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Your full name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Phone</label>
+              <input
+                type="tel"
+                id="contact-phone"
+                name="phone"
+                placeholder="+971 50 000 0000"
+                autocomplete="tel"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              placeholder="Tell us what's on your mind…"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary">
+              Send Message
+              <svg class="btn-icon" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <path d="M3 9h12M10 4l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER — 4 columns
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <!-- Col 1: Brand -->
+        <div>
+          <a href="index.html" aria-label="WYD MUN Home">
+            <img
+              class="footer-logo"
+              src="brand_assets/WYDMUN Logo.png"
+              alt="WYD MUN"
+            />
+          </a>
+          <p class="footer-slogan">Website design by Vivaan Surti.</p>
+          <p class="footer-tagline">Student-led · Online · 2026</p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-col">
+          <p class="footer-col-title">Navigation</p>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="secretariat.html">Secretariat</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="register.html">Register Now</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Committees -->
+        <div class="footer-col">
+          <p class="footer-col-title">Committees</p>
+          <ul>
+            <li><a href="who.html">WHO</a></li>
+            <li><a href="unodc.html">UNODC</a></li>
+            <li><a href="fifa.html">FIFA</a></li>
+            <li><a href="uncsw.html">UNCSW</a></li>
+            <li><a href="unsc.html">UNSC</a></li>
+            <li><a href="icao.html">ICAO</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Get Involved -->
+        <div class="footer-col">
+          <p class="footer-col-title">Get Involved</p>
+          <ul>
+            <li><a href="register.html">Register as Delegate</a></li>
+            <li><a href="secretariat.html">Apply as Chair</a></li>
+            <li><a href="secretariat.html">Join Secretariat</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 World Youth Diplomacy Model United Nations. All rights reserved.</span>
+        <span>"Diplomacy Begins with the Next Generation."</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script src="navbar.js"></script>
+  <script>
+    /* ── Hero slideshow ──────────────────────────────────────────
+       Cycles .active through each .hero-slide every 5 seconds.
+       CSS handles the 1.8s crossfade transition.
+       To adjust speed: change the interval value (ms) below.
+       To adjust fade duration: edit `transition` in styles.css
+       on the `.hero-slide` rule.
+    ──────────────────────────────────────────────────────────── */
+    (function () {
+      var slides = document.querySelectorAll('.hero-slide');
+      if (!slides.length) return;
+      var current = 0;
+
+      function nextSlide() {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+      }
+
+      /* 5000ms display time per slide — adjust to taste */
+      setInterval(nextSlide, 5000);
+    })();
+
+    /* ── Intersection Observer — scroll reveal ───────────────── */
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -48px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+
+    /* ── Committee cards — staggered entrance ─────────────────── */
+    const committeeObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const cards = entry.target.querySelectorAll('.committee-card');
+            cards.forEach((card, i) => {
+              setTimeout(() => card.classList.add('visible'), i * 90);
+            });
+            committeeObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.08 }
+    );
+    const committeeGrid = document.querySelector('.committees-grid');
+    if (committeeGrid) committeeObserver.observe(committeeGrid);
+
+    /* ── Stats counter animation ──────────────────────────────── */
+    function animateCounter(el) {
+      if (el._animFrame) cancelAnimationFrame(el._animFrame);
+      const target = parseInt(el.dataset.target, 10);
+      const suffix = el.dataset.suffix || '';
+      const duration = 2400;
+      const start = performance.now();
+      function tick(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.round(eased * target) + suffix;
+        if (progress < 1) el._animFrame = requestAnimationFrame(tick);
+      }
+      el._animFrame = requestAnimationFrame(tick);
+    }
+
+    const statsObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            /* Animate both .stat-block-number and legacy .stat-number */
+            entry.target.querySelectorAll('.stat-block-number, .stat-number').forEach(animateCounter);
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+    const statsBar = document.querySelector('.stats-bar-inner');
+    if (statsBar) statsObserver.observe(statsBar);
+
+  </script>
+
+</body>
+</html>

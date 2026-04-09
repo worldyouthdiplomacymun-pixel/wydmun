@@ -1,0 +1,27 @@
+Site: World Youth Diplomacy MUN
+
+Description:
+World Youth Diplomacy Model United Nations (WYDMUN) is a student-led international MUN conference based in Dubai, focused on diplomacy, global issues, and leadership development.
+
+Committees:
+- World Health Organization (WHO)
+- United Nations Office on Drugs and Crime (UNODC)
+- United Nations Security Council (UNSC)
+- United Nations Commission on the Status of Women (UNCSW)
+- International Civil Aviation Organization (ICAO)
+- FIFA Crisis Committee
+
+Focus:
+- International relations
+- Diplomacy and negotiation
+- Global governance
+- Youth leadership
+
+Audience:
+High school and university students interested in Model United Nations and global affairs.
+
+Location:
+Dubai, UAE
+
+Type:
+Educational event / Model United Nations conference
